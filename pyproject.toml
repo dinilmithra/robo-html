@@ -1,0 +1,14 @@
+[project]
+name = "robo-html"
+version = "0.1.0"
+description = "Reusable HTML report rendering utilities for automation projects"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.poetry]
+packages = [{ include = "robo_html" }]
+exclude = ["tools/**"]
+
+[build-system]
+requires = ["poetry-core==2.5.0"]
+build-backend = "poetry.core.masonry.api"
